@@ -62,7 +62,7 @@ fn increment_brightness(value: i16) {
     }
 }
 
-const BRIGHTNESS_BACKUP_FILE: &str = "brightness_backup";
+const BRIGHTNESS_BACKUP_FILE: &str = "~/.local/share/brightness_backup";
 
 /// Store current brightness in file
 fn backup_brightness() {
